@@ -1,0 +1,36 @@
+.sk-contact-form {
+	margin-top: 1.3rem;
+	margin-left: 1.3rem;
+	padding: 2rem;
+	background: url('../images/bg/contact-form-bg.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	box-shadow: -1.3rem -1.3rem 0 rgba($sk-contact-form-shadow, 1);
+	@include media-breakpoint-up(xl) {
+		padding: 2rem 6rem;
+		margin-right: -2rem;
+	}
+}
+
+.sk-contact-form-header {
+	margin-bottom: .75rem;
+	letter-spacing: .08rem;
+}
+
+.sk-form-group {
+	margin-bottom: .25rem;
+}
+
+.sk-contact-form-control {
+	background-color: rgba($gray-100, .8);
+	&:focus {
+		background-color: rgba($gray-100, .9);
+	}
+}
+
+.sk-contact-form-btn {
+	margin-top: .75rem;
+	padding: .1rem .5rem;
+	font-family: $sk-font-family-body;
+	font-size: .625rem;
+	letter-spacing: .075rem;
+}

@@ -1,0 +1,62 @@
+// gorny wiersz stopki
+.sk-footer-top {
+	position: relative;
+	padding: 80px 0 20px;
+	background: url('../images/bg/footer-bg.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	&:after {
+		@include sk-bg-overlay($sk-black, .75);
+	}
+}
+
+.sk-footer-top-content {
+	@include sk-relative-zindex;
+}
+
+.sk-footer-text {
+	font-size: .75rem;
+	color: $gray-600;
+}
+
+.sk-footer-p {
+	line-height: 2;
+}
+
+// kolumna kontakt
+.sk-footer-contact-list {
+	margin-bottom: .75rem;
+}
+
+.sk-footer-contact-item {
+	padding: .2rem 0;
+}
+
+.sk-social-box {
+	@include sk-size(26px, 26px);
+}
+
+// kolumna newsletter
+.sk-newsletter-form-group {
+	margin-bottom: .75rem;
+}
+
+.sk-newsletter-form-control {
+	height: 1.55rem;
+	font-size: .75rem;
+}
+
+.sk-newsletter-btn {
+	padding: .25rem 1rem;
+	font-size: .625rem;
+}
+
+// sekcja copyright
+.sk-copy {
+	padding: 1rem 0;
+	font-size: .625rem;
+}
+
+.sk-copy-second {
+	margin-top: .25rem;
+	font-size: .5625rem;
+}

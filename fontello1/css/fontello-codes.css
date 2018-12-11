@@ -1,0 +1,9 @@
+
+.icon-location:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e801'; } /* '' */
+.icon-google:before { content: '\e802'; } /* '' */
+.icon-twitter:before { content: '\e803'; } /* '' */
+.icon-youtube:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\e805'; } /* '' */
+.icon-phone-squared:before { content: '\f098'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */

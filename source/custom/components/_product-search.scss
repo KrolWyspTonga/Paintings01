@@ -1,0 +1,33 @@
+.sk-product-search {
+	padding: 42px 0;
+}
+
+.sk-product-search-inner {
+	width: 100%;
+	height: 2.2rem;
+	margin: 0 auto;
+	@include media-breakpoint-up(lg) {
+		width: 40%;
+	}
+}
+
+.sk-product-search-control {
+	font-family: $sk-font-family-secondary;
+	font-size: .625rem;
+	letter-spacing: .1rem;
+}
+
+.sk-product-search-input {
+	padding-left: 1.25rem;
+}
+
+.sk-product-search-categories {
+	color: $sk-product-search-btn-color;
+	&:hover {
+		color: darken($sk-product-search-btn-color, 15%);	
+	}
+}
+
+.sk-product-search-btn {
+	font-size: .5rem;
+}

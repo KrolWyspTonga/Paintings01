@@ -1,0 +1,80 @@
+.sk-post-widget {
+	margin-bottom: 30px;
+	padding: 1rem 2rem;
+	background-color: $gray-200;
+}
+
+.sk-post-widget-header {
+	margin-top: 1rem;
+	letter-spacing: .1rem;
+}
+
+.sk-post-widget-list-item {
+	padding-left: 1.25rem;
+	padding-right: 2.5rem;
+}
+
+.sk-post-widget-link {
+	color: $gray-900;
+	font-size: .875rem;
+	@include sk-font-light-secondary;
+}
+
+// widget szukaj
+.sk-post-widget-search {
+	padding: 0 .75rem;
+}
+
+.sk-post-widget-search-input {
+	font-family: $sk-font-family-secondary;
+	font-weight: 400;
+	font-size: .875rem;
+	letter-spacing: .2rem;
+	&::-webkit-input-placeholder {
+		color: $gray-200;
+	}
+	&::-moz-input-placeholder {
+		color: $gray-200;
+	}
+	&::-ms-input-placeholder {
+		color: $gray-200;
+	}
+	&:-moz-input-placeholder {
+		color: $gray-200;
+	}
+}
+
+// widget archiwum
+.sk-post-widget-archive {
+	padding: 1rem 0 0;
+}
+
+.sk-post-widget-archive-list {
+	margin-bottom: .5rem;
+}
+
+.sk-post-archive-header {
+	margin-bottom: .75rem;
+}
+
+// widget popularne wpisy
+.sk-post-widget-popular-item {
+	margin: 1.2rem 0;
+}
+
+.sk-post-widget-popular-img {
+	margin-right: 2.5rem;
+}
+
+// widget kategorie wpisow
+.sk-post-widget-categories {
+	padding: 2rem 0 .8rem;
+}
+
+.sk-post-widget-categories-item {
+	margin-bottom: .175rem;
+	margin-right: .15rem;
+	padding: .4rem 1rem;
+	line-height: 1;
+	background-color: $sk-black;
+}

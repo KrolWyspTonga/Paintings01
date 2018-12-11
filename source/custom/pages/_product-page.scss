@@ -1,0 +1,68 @@
+.sk-product-page {
+	padding: 80px 0 20px;
+}
+
+.sk-product-page-data {
+	@include sk-font-light-secondary;
+	letter-spacing: .1rem;
+}
+
+.sk-product-page-img {
+	margin-bottom: 2rem;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 0;
+	}
+}
+
+.sk-product-page-price-box {
+	width: 100%;
+	margin: 1rem 0 1.5rem;
+	@include media-breakpoint-up(md) {
+		width: 48%;
+	}
+}
+
+.sk-product-page-short-desc {
+	margin: 1.25rem 0 2.5rem;
+}
+
+.sk-product-page-quantity {
+	margin-bottom: 1.5rem;
+	font-size: .6875rem;
+}
+
+.sk-product-page-quantity-input {
+	margin-left: 1rem;
+	color: $gray-600;
+	border: 1px solid $gray-900;
+	@include sk-size(2.9rem, 1.2rem);
+}
+
+.sk-product-page-quantity-label {
+	font-weight: 300;
+	letter-spacing: .15rem;
+}
+
+.sk-product-page-add-to-cart {
+	font-size: .6875rem;
+	letter-spacing: .15rem;
+	font-weight: 300;
+}
+
+.sk-product-page-hr {
+	margin: 3.25rem 0;
+}
+
+.sk-product-page-desc {
+	margin-bottom: 70px;
+}
+
+.sk-product-page-desc-text {
+	padding: 2.5rem 4rem 1.5rem;
+	border: 1px solid darken($gray-200, 5%);
+	@include sk-font-light-secondary;
+}
+
+.sk-product-page-related-header {
+	margin-bottom: 2rem;
+}

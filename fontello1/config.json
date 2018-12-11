@@ -1,0 +1,58 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
+      "css": "location",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ec488dfd1f548948c09671ca5a60ec92",
+      "css": "phone-squared",
+      "code": 61592,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6d6d0efe9717ec2962ef0a77c6210df9",
+      "css": "google",
+      "code": 59394,
+      "src": "zocial"
+    },
+    {
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "code": 59395,
+      "src": "zocial"
+    },
+    {
+      "uid": "57a4f84c40a0c44d47387105f162a427",
+      "css": "youtube",
+      "code": 59396,
+      "src": "zocial"
+    },
+    {
+      "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
+      "css": "facebook",
+      "code": 59397,
+      "src": "zocial"
+    }
+  ]
+}

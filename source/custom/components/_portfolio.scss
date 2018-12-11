@@ -1,0 +1,52 @@
+.sk-portfolio-box {
+	position: relative;
+}
+
+.sk-portfolio-box-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 65%;
+	margin: 0 auto;
+	z-index: 1000;
+	transform: translateY(-50%);
+}
+
+.sk-portfolio-box-title {
+	margin-bottom: 1.2rem;
+	font-size: 1.55rem;
+	letter-spacing: .2rem;
+}
+
+.sk-portfolio-box-img {
+	max-width: 540px;
+}
+
+.sk-portfolio-box.featured {
+	max-width: 540px;
+}
+
+.sk-portfolio-img-overlay {
+	&:after {
+		@include sk-bg-overlay($sk-accent-color, .8);	
+	}
+}
+
+// style dla portfolio item
+.sk-portfolio-item {
+	position: relative;
+	margin-bottom: 1.875rem;
+	.sk-hr {
+		margin: 1rem 0;
+	}
+}
+
+.sk-portfolio-item-info {
+	@include sk-font-light-secondary;
+}
+
+.sk-portfolio-box-header {
+	font-size: 1.125rem;
+	letter-spacing: .2rem;
+}

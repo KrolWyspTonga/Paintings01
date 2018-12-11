@@ -1,0 +1,35 @@
+.sk-comments {
+	padding: 45px 0 25px;
+}
+
+.sk-comment {
+	padding-top: .75rem;
+}
+
+.sk-comment-avatar {
+	margin-right: 1rem;
+	border-radius: 24px;
+	@include sk-size(48px, 48px);
+}
+
+.sk-comment-meta {
+	margin: .25rem 0;
+}
+
+.sk-comment-username {
+	font-family: $sk-font-family-secondary;
+	font-weight: 700;
+	letter-spacing: .075rem;
+}
+
+.sk-comment-date {
+	font-family: $sk-font-family-secondary;
+	font-size: .75rem;
+	letter-spacing: .1rem;	
+}
+
+.sk-comment-text {
+	margin-right: 4rem;
+	font-size: .75rem;
+	line-height: 2;
+}

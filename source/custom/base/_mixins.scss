@@ -1,0 +1,37 @@
+// nakladka w tle
+@mixin sk-bg-overlay($color, $opacity) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	width: 100%;
+	content: "";
+	z-index: 0;
+	background: none repeat $color;
+	opacity: $opacity;
+}
+
+// pozycja relatywna i zwiekszony zindex
+@mixin sk-relative-zindex {
+	position: relative;
+	z-index: 1000;
+}
+
+// rozmiar
+@mixin sk-size($w, $h) {
+	width: $w;
+	height: $h;
+}
+
+// tekst 300 secondary
+@mixin sk-font-light-secondary {
+	font-weight: 300;
+	font-family: $sk-font-family-secondary;
+}
+
+// podstawowe przejscie
+@mixin sk-basic-transition {
+	transition: all .25s ease-in-out;
+}

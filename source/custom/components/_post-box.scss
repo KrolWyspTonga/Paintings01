@@ -1,0 +1,66 @@
+.sk-post-box {
+	position: relative;
+}
+
+.sk-post-box-date {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	@include sk-size(75px, 75px);
+	@include media-breakpoint-up(md) {
+		@include sk-size(95px, 95px);
+	}
+}
+
+.sk-post-box-date-body {
+	max-width: 90%;
+	@include media-breakpoint-up(md) {
+		max-width: 45%;
+	}
+}
+
+.sk-post-box-date-value {
+	margin-top: .3rem;
+	font-size: .625rem;
+	@include sk-font-light-secondary;
+}
+
+.sk-post-box-body {
+	position: relative;
+	padding: 10px 0 0 10px;
+}
+
+.sk-post-box-content {
+	position: absolute;
+	top: 30%;
+	right: 0;
+	bottom: 0;
+	left: 10px;
+	padding: 20px 30px;
+	&:after {
+		@include sk-bg-overlay($sk-black, .6);
+	}
+	@include media-breakpoint-up(md) {
+		top: 50%;
+	} 
+}
+
+.sk-post-box-content-inner {
+	@include sk-relative-zindex;
+}
+
+.sk-post-box-title {
+	font-size: 1.375rem;
+	margin-bottom: .85rem;
+}
+
+.sk-post-box-text {
+	margin-bottom: .3rem;
+	line-height: 1.66;
+}
+
+.sk-post-box-link {
+	font-size: .625rem;
+	@include sk-font-light-secondary;
+}

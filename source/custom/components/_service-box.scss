@@ -1,0 +1,38 @@
+.sk-services-box {
+	margin-bottom: 40px;
+}
+
+.sk-services-box-top {
+	margin-bottom: 1.4rem;
+}
+
+.sk-services-box-img {
+	margin: 10px 20px 0 10px;
+	@include sk-relative-zindex;
+}
+
+.sk-services-box-title {
+	margin-top: 1.75rem;
+}
+
+.sk-services-box-header {
+	font-size: 1.125rem;
+	line-height: 1.2;
+	@include sk-font-light-secondary;
+}
+
+.sk-services-box-text {
+	line-height: 2;
+}
+
+.sk-services-box-shadow {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: rgba($sk-black, .075);
+	@include sk-size(85px, 85px);
+}
+
+.sk-services-box-active {
+	background-color: rgba($sk-accent-color, 1);
+}

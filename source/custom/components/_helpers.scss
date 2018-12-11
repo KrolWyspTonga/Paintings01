@@ -1,0 +1,10 @@
+.sk-hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: darken($gray-200, 5%);
+}
+
+.sk-alternate-bg {
+	background-color: $sk-gray-100;
+}

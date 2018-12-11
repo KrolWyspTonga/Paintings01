@@ -1,0 +1,11 @@
+// wlasne zmienne
+@import 'custom/base/variables';
+
+// import zrodel Bootstrap 4
+@import 'bootstrap/bootstrap';
+
+// import wlasnych stylow
+@import 'custom/base/mixins';
+@import 'custom/base/typography';
+@import 'custom/components/components';
+@import 'custom/pages/pages';
