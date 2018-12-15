@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<title>paintings</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description"
+			  content="Great Painters"/>
+	<meta name="keywords"
+			  content="Art"/>
+	<meta http-equiv="X-UA-Compatible" 
+			  content = "Wojciech Walendziak"/>
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="fontello1/css/fontello.css" type="text/css"/>
+	<link rel="stylesheet" href="fontello2/css/fontello.css" type="text/css"/>
+	<link rel="stylesheet" href="paintings_styl.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="paintings_automat.js"></script>
+</head>
+<body>
+	<div id="background0"></div>
+	<div id="background1">
+		<div id="top1"></div>
+		<div class="paintings2" id="paintings1">
+			<div class="image0 image1" id="A0"></div>
+			<div onclick="move(1)" class="image0 image1" id="A1">
+				<img class="image3" height=100% width=100% src="rys1.jpg">
+			</div>
+			<div onclick="move(2)" class="image0 image1" id="A2">
+				<img class="image3" height=100% width=100% src="rys2.jpg">
+			</div>
+			<div onclick="move(3)" class="image0 image1" id="A3">
+				<img class="image3" height=100% width=100% src="rys3.jpg">
+			</div>
+			<div onclick="move(4)" class="image0 image1" id="A4">
+				<img class="image3" height=100% width=100% src="rys4.jpg">
+			</div>
+			<div onclick="move(5)" class="image0 image1" id="A5">
+				<img class="image3" height=100% width=100% src="rys5.jpg">
+			</div>
+			<div class="image0 image1" id="A6"></div>
+		</div>
+		<div id="galery1">
+			<p class="welcome">Let's click your favourite picture!</p>
+			<div onmousemove="scale_img(1)" onmouseout="normal_img(1)" class="image2 image21" id="B1"></div>
+			<div onmousemove="scale_img(2)" onmouseout="normal_img(2)" class="image2 image21" id="B2"></div>
+			<div style="clear:both;"></div>
+			<div onmousemove="scale_img(3)" onmouseout="normal_img(3)" class="image2 image21" id="B3"></div>
+			<div onmousemove="scale_img(4)" onmouseout="normal_img(4)" class="image2 image21" id="B4"></div>
+			<div style="clear:both;"></div>
+		</div>
+		<div style="clear:both;"></div>
+		<div id="end1"></div>
+	</div>
+<script src="source/js/bootstrap.min.js"></script>
+</body>
+</html>
